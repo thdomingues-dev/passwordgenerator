@@ -12,9 +12,7 @@ const generatePassword = function (length = 8) {
     let randomNumber = Math.floor((Math.random() * myString.length));
     result += myString[randomNumber];
   }
-
   return result;
 }
 
 const passWord = generatePassword(16);
-
