@@ -2,9 +2,9 @@ const generatePassword = function (length = 8) {
   const alphabet = "abcdefghijklmnopqrstuvxzwy";
   const alphabetUpper = alphabet.toUpperCase();
   const numbers = "0123456789";
-  const especialCharecteres = "!@#!@#!@#";
+  const specialCharecteres = "!@#!@#!@#";
 
-  const myString = alphabet + alphabetUpper + numbers + especialCharecteres;
+  const myString = alphabet + alphabetUpper + numbers + specialCharecteres;
 
   let result = '';
 
@@ -17,4 +17,4 @@ const generatePassword = function (length = 8) {
 }
 
 const passWord = generatePassword(16);
-console.log(passWord);
+
